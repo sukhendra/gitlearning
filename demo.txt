@@ -26,3 +26,9 @@ $git push origin master //you may face error "non-fast forward errors"
 $git fetch origin
 $git merge origin Your_BRANCH_NAME
 $git checkout <Branchname>
+
+Note::ssh: connect to host xx.yy.co.in port 22: Connection timed out
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists. //This error comes then it means that port 22 is not opened.
